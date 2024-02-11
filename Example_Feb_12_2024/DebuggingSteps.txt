@@ -1,0 +1,46 @@
+﻿Debugging in Visual Studio involves identifying and fixing issues in your code while it's running. Here are the basic steps for debugging in Visual Studio:
+
+    Set Breakpoints:
+        Place breakpoints in your code at specific lines where you suspect issues or want to inspect the state of variables.
+        Click on the left margin of the code editor next to the line number, or press F9 to toggle a breakpoint.
+
+    Start Debugging:
+        Press F5 to start debugging your application. Alternatively, you can use the "Start Debugging" button in the toolbar.
+
+    Run to Cursor:
+        Set the cursor on a specific line of code and press Ctrl + F10 to run to that line without setting a breakpoint.
+
+    Step Into, Step Over, and Step Out:
+        Use F11 to step into a function call, F10 to step over a function call, and Shift + F11 to step out of the current function.
+        These actions help you navigate through your code one step at a time.
+
+    Inspect Variables:
+        While debugging, you can hover over variables to see their current values.
+        Use the "Watch" window to add specific variables and expressions for continuous monitoring.
+
+    Immediate Window:
+        Open the Immediate Window (Ctrl + Alt + I) to execute commands and evaluate expressions while debugging.
+
+    Locals Window:
+        The Locals Window displays local variables and their values during debugging.
+
+    Call Stack Window:
+        The Call Stack Window shows the hierarchy of method calls, allowing you to navigate through the call stack.
+
+    Breakpoint Window:
+        The Breakpoint Window (Ctrl + Alt + B) allows you to manage and configure breakpoints.
+
+    Conditional Breakpoints:
+        Right-click on a breakpoint and set conditions for it to break only when certain conditions are met.
+
+    Exception Settings:
+        Use the "Exception Settings" window to configure how Visual Studio should handle different types of exceptions.
+
+    Output Window:
+        The Output Window (Ctrl + Alt + O) can display various debug-related information, including console output.
+
+    Debugging Tools:
+        Visual Studio provides various debugging tools, such as the Memory and Performance Profilers, to help identify and resolve issues.
+
+    Stop Debugging:
+        Press Shift + F5 to stop debugging, or use the "Stop Debugging" button in the toolbar.
