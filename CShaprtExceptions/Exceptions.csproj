@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Exceptions.ThrowException1</StartupObject>
+    <StartupObject>Exceptions.CustomExceptionsExample</StartupObject>
   </PropertyGroup>
 
 </Project>
