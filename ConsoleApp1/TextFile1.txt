@@ -1,0 +1,11 @@
+﻿Worked on the Struct
+Enum
+Object to Json Converter
+
+Steps for Object to Json Converter
+
+1. Right on the Solution Explorer 
+2. Click Manage Nuget Packages 
+3. Click the Browse
+4. Enter the Json
+5. Click Install
