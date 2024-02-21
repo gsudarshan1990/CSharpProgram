@@ -1,0 +1,15 @@
+﻿Running a command-line arguments program in Visual Studio involves configuring the project to accept command-line arguments and then providing them through the project settings. Here are the steps:
+
+    Open or Create a Console Application:
+        Open Visual Studio.
+        Create a new Console Application project or open an existing one.
+
+    Configure Command-Line Arguments in Project Settings:
+
+        Right-click on your project in the Solution Explorer.
+
+        Select "Properties."
+
+        In the project properties window, go to the "Debug" tab.
+
+        In the "Start Options" section, you'll find a field named "Command line arguments." Enter your command-line arguments here, separated by spaces.
