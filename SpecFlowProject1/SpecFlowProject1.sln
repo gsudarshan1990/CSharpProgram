@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecFlowProjectSerializatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecFlowProjectDishwasher", "SpecFlowProjectDishwasher\SpecFlowProjectDishwasher.csproj", "{A3668C94-24B5-438E-BD36-950BF06A19F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowProjectBDD", "SpecFlowProjectBDD\SpecFlowProjectBDD.csproj", "{4BFC610A-F8B4-4830-B14A-D6530A7475C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A3668C94-24B5-438E-BD36-950BF06A19F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3668C94-24B5-438E-BD36-950BF06A19F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3668C94-24B5-438E-BD36-950BF06A19F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFC610A-F8B4-4830-B14A-D6530A7475C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFC610A-F8B4-4830-B14A-D6530A7475C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFC610A-F8B4-4830-B14A-D6530A7475C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFC610A-F8B4-4830-B14A-D6530A7475C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
