@@ -5,6 +5,7 @@ on:
     branches: ["*"]   # Runs on any branch push
   pull_request:
     branches: [master] # Runs on PRs to master
+  workflow_dispatch:
 
 jobs:
   build:
