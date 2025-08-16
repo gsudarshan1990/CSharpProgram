@@ -1,0 +1,35 @@
+name: .NET Build 
+
+on:
+  push:
+    branches: ["*"]   # Runs on any branch push
+  pull_request:
+    branches: [master] # Runs on PRs to master
+
+jobs:
+  build:
+    name: ChsarpUpdation
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Setup .NET (update version if your project uses different .NET version)
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      # Restore dependencies
+      - name: Restore dependencies
+        run: dotnet restore
+
+      # Build project
+      - name: Build
+        run: dotnet build --no-restore --configuration Release
+
+      
+
+
